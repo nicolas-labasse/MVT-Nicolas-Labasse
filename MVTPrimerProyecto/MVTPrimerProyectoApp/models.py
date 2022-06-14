@@ -8,5 +8,3 @@ class Persona(models.Model):
     edad = models.IntegerField()
     nacimiento = models.DateField()
   
-
-   
