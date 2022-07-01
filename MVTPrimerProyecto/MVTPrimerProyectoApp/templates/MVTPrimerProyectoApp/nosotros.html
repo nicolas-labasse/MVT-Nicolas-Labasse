@@ -1,0 +1,92 @@
+{% extends 'MVTPrimerProyectoApp/header.html' %}
+{% load static %}
+
+{% block tituloPagina %}
+
+{% endblock %}
+
+{% block contenidoPagina %}
+<section>
+  <div class="card text-start text-white fondoArmador">
+    <div class="card-body d-flex justify-content-evenly" >
+      <div class="col-6">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-fluid rounded-circle" alt="Hollywood Sign on The Hill"/>
+      </div>
+      <div class="text-end col-3 mt-5">
+        <h1 class="card-text">LA SINERGIA DEL TRABAJO EN EQUIPO</h1>
+        <p class="card-text">{% lorem 1 b random %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row d-flex justify-content-around">
+            <div class="col">
+              <h1 class="card-title text-center mt-4 mb-4">EL EQUIPO ELEUSIS</h1>
+              <div class="d-flex justify-content-around row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-3">
+                    <div class="h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top rounded-circle" alt="Los Angeles Skyscrapers"/>
+                      <div class=" text-center">
+                        <h5 class="card-title">Lic. Damiana Comune</h5>
+                        <p class="card-text">COORDINADORA</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-3">
+                    <div class="h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top rounded-circle" alt="Los Angeles Skyscrapers"/>
+                      <div class=" text-center">
+                        <h5 class="card-title">Lic. Damiana Comune</h5>
+                        <p class="card-text">COORDINADORA</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-3">
+                    <div class="h-100">
+                        <div class "d-flex justify-content-center"style="width:200px ">
+                      <img src="{% static 'imagenes/6.jpg' %}" class="card-img-top rounded-circle"  alt="Los Angeles Skyscrapers"/>
+                        </div>
+                      <div class=" text-center">
+                        <h5 class="card-title">Lic. Damiana Comune</h5>
+                        <p class="card-text">COORDINADORA</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-3">
+                    <div class="h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top rounded-circle" alt="Los Angeles Skyscrapers"/>
+                      <div class=" text-center">
+                        <h5 class="card-title">Lic. Damiana Comune</h5>
+                        <p class="card-text">COORDINADORA</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>     
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row d-flex justify-content-around">
+            <div class="col">
+              <div class="d-flex justify-content-around row ">
+                <div class="col-4">
+                    <div class="h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top rounded-circle" alt="Los Angeles Skyscrapers"/>
+                      <div class=" text-center">
+                        <h5 class="card-title">Lic. Damiana Comune</h5>
+                        <p class="card-text">COORDINADORA</p>
+                      </div>
+                    </div>
+                  </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

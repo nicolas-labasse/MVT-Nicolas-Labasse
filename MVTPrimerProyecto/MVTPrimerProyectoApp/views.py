@@ -7,9 +7,24 @@ from MVTPrimerProyectoApp.models import Persona
 def documento(request):
 
   documento =  Persona.objects.all()
-  contexto = {'documentos': documento}
 
   
 
 
-  return render(request,"MVTPrimerProyectoApp/index.html",contexto)
+  return render(request,"MVTPrimerProyectoApp/index.html",{'documentos': documento})
+
+
+
+def nosotros(request):
+
+  documento =  Persona.objects.all()
+
+  
+  return render(request,"MVTPrimerProyectoApp/nosotros.html",{'documentos': documento})
+
+def escuela(request):
+
+  documento =  Persona.objects.all()
+
+  
+  return render(request,"MVTPrimerProyectoApp/escuela.html",{'documentos': documento})

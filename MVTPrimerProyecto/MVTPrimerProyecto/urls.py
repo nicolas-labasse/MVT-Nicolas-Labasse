@@ -20,6 +20,7 @@ from MVTPrimerProyectoApp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', documento),
-    
+    path('', documento,name="inicio"),
+    path('nosotros',nosotros, name="nosotros"),
+    path('escuela',escuela, name="escuela"),
 ]
